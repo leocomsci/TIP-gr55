@@ -1,0 +1,196 @@
+.navbar {
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  border:0px;
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.navbar-logo {
+  width: 60px;
+  height: 40px;
+}
+
+.navbar a {
+  color: #333;
+  text-decoration: none;
+  padding:10px;
+  color: rgb(134, 102, 148);
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  border-radius: 4px;
+}
+
+.navbar-right {
+  margin-left: auto;
+  font-family: 'Times New Roman', Times, serif ;
+}
+
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-image: url(./images/123.png);
+  background-size: cover;
+  
+}
+
+.banner img {
+  width: 1200px;
+  height: 800px;
+  padding-left: 100px;
+}
+
+.banner h1{
+    padding: 25px 600px 0px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+
+.banner p{
+    padding: 10px 600px 25px 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    margin: 0;
+}
+
+.banner a{
+    background-color: rgb(134, 102, 148);
+    color: white;
+    margin: 20px 1300px 100px 100px;
+    padding: 15px 25px;
+    border-radius: 5px;
+    
+}
+
+.banner a:hover{
+    color: rgb(134, 102, 148);
+    background-color: white;
+}
+
+.footer {
+  padding: 10px;
+  color: white;
+  background-color: rgb(134, 102, 148);
+  text-align: center;
+}
+
+.footer p{
+  display:  inline;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url(./images/123.png);
+  background-size: cover;
+  border-radius: 10px;
+  margin: 1px 180px 1px 180px;
+}
+
+.card-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url(./images/123.png);
+  background-size: cover;
+  border-radius: 10px;
+  margin: 1px 100px 1px 100px;
+}
+
+.card-container p{
+  font-size: large;
+}
+
+.card-container img{
+  width: 500px;
+  height: 500px;
+}
+
+.card-container-inner {
+  background-color: rgb(134, 102, 148);
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex: 1 1 0px;
+  font-family: "Raleway", sans-serif;
+  
+}
+.card-container-inner p, input{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
+
+.card-container-inner1 {
+  background-color: rgb(134, 102, 148);
+  padding: 40px;
+  border-radius: 20px;
+  margin-bottom: 800px;
+  margin-right: 10px;
+  margin-left: 10px;
+  flex: 1 1 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+
+.title {
+  margin-left: 20px;
+}
+
+.form{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.5rem;
+}
+
+.about-container {
+  display: flex;
+  /* justify-content: center; */
+}
+
+#job_table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+#job_table th,
+#job_table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#job_table th {
+  background-color: #f2f2f2;
+}
+
+#job_table td:first-child {
+  font-weight: bold;
+}
+
+.apply_button {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.apply_button:hover {
+  background-color: #45a049;
+}
+
